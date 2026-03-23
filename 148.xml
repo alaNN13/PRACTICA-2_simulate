@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<automata>
+  <tipo>AFD</tipo>
+  <alfabeto>
+    <simbolo>A</simbolo>
+    <simbolo>N</simbolo>
+    <simbolo>P</simbolo>
+    <simbolo>P, N, A, S</simbolo>
+    <simbolo>S</simbolo>
+    <simbolo>s</simbolo>
+  </alfabeto>
+  <estados inicial="0" finales="2">
+    <estado id="0" nombre="q0"/>
+    <estado id="1" nombre="q1"/>
+    <estado id="2" nombre="qA"/>
+  </estados>
+  <transiciones>
+    <tr origen="0" destino="2" leer="A"/>
+    <tr origen="2" destino="2" leer="P, N, A, S"/>
+    <tr origen="0" destino="1" leer="P"/>
+    <tr origen="1" destino="0" leer="P"/>
+    <tr origen="0" destino="1" leer="s"/>
+    <tr origen="1" destino="0" leer="S"/>
+    <tr origen="1" destino="2" leer="A"/>
+    <tr origen="0" destino="0" leer="N"/>
+    <tr origen="1" destino="1" leer="N"/>
+  </transiciones>
+</automata>

@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<automata>
+  <tipo>AFD</tipo>
+  <alfabeto/>
+  <estados inicial="" finales=""/>
+  <transiciones/>
+</automata>

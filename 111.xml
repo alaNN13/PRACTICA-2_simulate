@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<automata>
+  <tipo>AFD</tipo>
+  <alfabeto>
+    <simbolo>0</simbolo>
+    <simbolo>1</simbolo>
+    <simbolo>2</simbolo>
+  </alfabeto>
+  <estados inicial="0" finales="15">
+    <estado id="0" nombre="q0"/>
+    <estado id="1" nombre="q1"/>
+    <estado id="2" nombre="q2"/>
+    <estado id="3" nombre="q3"/>
+    <estado id="4" nombre="q4"/>
+    <estado id="5" nombre="q5"/>
+    <estado id="6" nombre="q6"/>
+    <estado id="7" nombre="q7"/>
+    <estado id="8" nombre="q8"/>
+    <estado id="9" nombre="q9"/>
+    <estado id="10" nombre="q10"/>
+    <estado id="11" nombre="q11"/>
+    <estado id="12" nombre="q12"/>
+    <estado id="13" nombre="q13"/>
+    <estado id="14" nombre="q14"/>
+    <estado id="15" nombre="q15"/>
+    <estado id="16" nombre="q16"/>
+    <estado id="17" nombre="q17"/>
+    <estado id="18" nombre="q18"/>
+    <estado id="19" nombre="q19"/>
+    <estado id="20" nombre="qt"/>
+  </estados>
+  <transiciones>
+    <tr origen="12" destino="10" leer="2"/>
+    <tr origen="8" destino="5" leer="1"/>
+    <tr origen="12" destino="10" leer="1"/>
+    <tr origen="8" destino="5" leer="2"/>
+    <tr origen="16" destino="17" leer="1"/>
+    <tr origen="13" destino="14" leer="0"/>
+    <tr origen="18" destino="15" leer="1"/>
+    <tr origen="18" destino="19" leer="0"/>
+    <tr origen="18" destino="15" leer="2"/>
+    <tr origen="10" destino="11" leer="0"/>
+    <tr origen="17" destino="15" leer="2"/>
+    <tr origen="17" destino="15" leer="1"/>
+    <tr origen="4" destino="1" leer="0"/>
+    <tr origen="11" destino="12" leer="1"/>
+    <tr origen="3" destino="4" leer="0"/>
+    <tr origen="15" destino="16" leer="0"/>
+    <tr origen="14" destino="15" leer="2"/>
+    <tr origen="16" destino="15" leer="2"/>
+    <tr origen="1" destino="1" leer="0"/>
+    <tr origen="6" destino="6" leer="0"/>
+    <tr origen="11" destino="11" leer="0"/>
+    <tr origen="16" destino="16" leer="0"/>
+    <tr origen="20" destino="20" leer="0"/>
+    <tr origen="0" destino="0" leer="1"/>
+    <tr origen="5" destino="5" leer="1"/>
+    <tr origen="10" destino="10" leer="1"/>
+    <tr origen="15" destino="15" leer="1"/>
+    <tr origen="20" destino="20" leer="1"/>
+    <tr origen="0" destino="0" leer="2"/>
+    <tr origen="5" destino="5" leer="2"/>
+    <tr origen="10" destino="10" leer="2"/>
+    <tr origen="15" destino="15" leer="2"/>
+    <tr origen="20" destino="20" leer="2"/>
+    <tr origen="19" destino="15" leer="1"/>
+    <tr origen="6" destino="5" leer="2"/>
+    <tr origen="5" destino="6" leer="0"/>
+    <tr origen="17" destino="18" leer="0"/>
+    <tr origen="1" destino="2" leer="1"/>
+    <tr origen="2" destino="3" leer="0"/>
+    <tr origen="14" destino="10" leer="1"/>
+    <tr origen="12" destino="13" leer="0"/>
+    <tr origen="4" destino="5" leer="2"/>
+    <tr origen="9" destino="10" leer="2"/>
+    <tr origen="9" destino="6" leer="0"/>
+    <tr origen="9" destino="5" leer="1"/>
+    <tr origen="7" destino="8" leer="0"/>
+    <tr origen="4" destino="0" leer="1"/>
+    <tr origen="14" destino="11" leer="0"/>
+    <tr origen="6" destino="7" leer="1"/>
+    <tr origen="7" destino="5" leer="2"/>
+    <tr origen="8" destino="9" leer="0"/>
+    <tr origen="19" destino="20" leer="2"/>
+    <tr origen="7" destino="5" leer="1"/>
+    <tr origen="1" destino="0" leer="2"/>
+    <tr origen="3" destino="0" leer="1"/>
+    <tr origen="3" destino="0" leer="2"/>
+    <tr origen="0" destino="1" leer="0"/>
+    <tr origen="2" destino="0" leer="2"/>
+    <tr origen="2" destino="0" leer="1"/>
+    <tr origen="13" destino="10" leer="1"/>
+    <tr origen="13" destino="10" leer="2"/>
+  </transiciones>
+</automata>

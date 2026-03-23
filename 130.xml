@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<automata>
+  <tipo>AFD</tipo>
+  <alfabeto>
+    <simbolo>0</simbolo>
+    <simbolo>1</simbolo>
+  </alfabeto>
+  <estados inicial="1" finales="2">
+    <estado id="1" nombre="q1"/>
+    <estado id="2" nombre="q2"/>
+    <estado id="3" nombre="q3"/>
+  </estados>
+  <transiciones>
+    <tr origen="1" destino="1" leer="0"/>
+    <tr origen="2" destino="2" leer="1"/>
+    <tr origen="1" destino="2" leer="1"/>
+    <tr origen="3" destino="2" leer="1"/>
+    <tr origen="2" destino="3" leer="0"/>
+    <tr origen="3" destino="2" leer="0"/>
+  </transiciones>
+</automata>
