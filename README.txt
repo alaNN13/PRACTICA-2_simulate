@@ -4,25 +4,24 @@ This is a desktop application developed in the PYTHON programming language using
 
 ## MAIN FEATURES
 
-**Automata Definition and Visualization**  
+### Automata Definition and Visualization
 INCLUDES:
 * Import of `.json` files generated from JFLAP.
-* Extraction of the automaton formal definition:  
-  \( Q, \Sigma, q_0, F, \delta \)
+* Extraction of the automaton formal definition: (Q, Σ, q0, F, δ)
 * Visualization of the transition function in an interactive table.
 * Event console showing automaton information.
 
-**Simulation and String Validation**
+### Simulation and String Validation
 * Evaluation of input strings.
 * Step-by-step state transition trace.
 * Final result showing if the string is **Accepted** or **Rejected**.
 
-**Extra Tools**
-* Calculation of prefixes, suffixes and substrings (including **λ**).
+### Extra Tools
+* Calculation of prefixes, suffixes and substrings (including ε).
 * Generation of **Kleene Closure (Σ\*)**.
 * Generation of **Positive Closure (Σ+)** with user-defined maximum length.
 
-**File Converter**
+### File Converter
 * Converts JFLAP `.jff` files into `.json` and `.xml`.
 * Ignores corrupted or empty files automatically.
 
@@ -36,12 +35,12 @@ INCLUDES:
 
 Follow these steps to run the program on your local machine:
 
-1. **Open your terminal** and navigate to the project folder.
-2. **Convert JFLAP files** (if needed):
+1. Open your terminal and navigate to the project folder.
+2. Convert JFLAP files (if needed):
    ```bash
    python convertidor.py
    ```
-3. **Run the simulator**
+3. Run the simulator:
    ```bash
    python main.py
    ```
