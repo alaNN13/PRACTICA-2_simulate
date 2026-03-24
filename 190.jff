@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><structure>
+    <type>fa</type>
+    <automaton>
+        <state id="0" name="q0"><x>50.0</x><y>200.0</y><initial/></state>
+        <state id="101" name="q101"><x>100.0</x><y>50.0</y></state>
+        <state id="102" name="q102"><x>150.0</x><y>50.0</y></state>
+        <state id="103" name="q103"><x>200.0</x><y>50.0</y></state>
+        <state id="104" name="q104"><x>250.0</x><y>50.0</y></state>
+        <state id="105" name="q105"><x>300.0</x><y>50.0</y></state>
+        <state id="106" name="q106"><x>350.0</x><y>50.0</y></state>
+        <state id="107" name="q107"><x>400.0</x><y>50.0</y></state>
+        <state id="108" name="q108"><x>450.0</x><y>50.0</y></state>
+        <state id="109" name="q109"><x>500.0</x><y>50.0</y></state>
+        <state id="110" name="q110"><x>550.0</x><y>50.0</y><final/></state>
+        <state id="201" name="q201"><x>100.0</x><y>200.0</y></state>
+        <state id="202" name="q202"><x>150.0</x><y>200.0</y></state>
+        <state id="203" name="q203"><x>200.0</x><y>200.0</y></state>
+        <state id="204" name="q204"><x>250.0</x><y>200.0</y></state>
+        <state id="205" name="q205"><x>300.0</x><y>200.0</y></state>
+        <state id="206" name="q206"><x>350.0</x><y>200.0</y></state>
+        <state id="207" name="q207"><x>400.0</x><y>200.0</y></state>
+        <state id="208" name="q208"><x>450.0</x><y>200.0</y></state>
+        <state id="209" name="q209"><x>500.0</x><y>200.0</y></state>
+        <state id="210" name="q210"><x>550.0</x><y>200.0</y><final/></state>
+        <state id="301" name="q301"><x>100.0</x><y>350.0</y></state>
+        <state id="302" name="q302"><x>150.0</x><y>350.0</y></state>
+        <state id="303" name="q303"><x>200.0</x><y>350.0</y></state>
+        <state id="304" name="q304"><x>250.0</x><y>350.0</y></state>
+        <state id="305" name="q305"><x>300.0</x><y>350.0</y></state>
+        <state id="306" name="q306"><x>350.0</x><y>350.0</y></state>
+        <state id="307" name="q307"><x>400.0</x><y>350.0</y></state>
+        <state id="308" name="q308"><x>450.0</x><y>350.0</y><final/></state>
+        <transition><from>0</from><to>0</to><read>0</read></transition>
+        <transition><from>0</from><to>0</to><read>1</read></transition>
+        <transition><from>0</from><to>101</to><read>1</read></transition>
+        <transition><from>101</from><to>102</to><read>1</read></transition>
+        <transition><from>102</from><to>103</to><read>0</read></transition>
+        <transition><from>103</from><to>104</to><read>1</read></transition>
+        <transition><from>104</from><to>105</to><read>0</read></transition>
+        <transition><from>105</from><to>105</to><read>0</read></transition>
+        <transition><from>105</from><to>105</to><read>1</read></transition>
+        <transition><from>105</from><to>106</to><read>1</read></transition>
+        <transition><from>106</from><to>107</to><read>0</read></transition>
+        <transition><from>107</from><to>108</to><read>1</read></transition>
+        <transition><from>108</from><to>109</to><read>0</read></transition>
+        <transition><from>109</from><to>110</to><read>0</read></transition>
+        <transition><from>110</from><to>110</to><read>0</read></transition>
+        <transition><from>110</from><to>110</to><read>1</read></transition>
+        <transition><from>0</from><to>201</to><read>1</read></transition>
+        <transition><from>201</from><to>202</to><read>0</read></transition>
+        <transition><from>202</from><to>203</to><read>1</read></transition>
+        <transition><from>203</from><to>204</to><read>0</read></transition>
+        <transition><from>204</from><to>205</to><read>0</read></transition>
+        <transition><from>205</from><to>205</to><read>0</read></transition>
+        <transition><from>205</from><to>205</to><read>1</read></transition>
+        <transition><from>205</from><to>206</to><read>1</read></transition>
+        <transition><from>206</from><to>207</to><read>1</read></transition>
+        <transition><from>207</from><to>208</to><read>0</read></transition>
+        <transition><from>208</from><to>209</to><read>1</read></transition>
+        <transition><from>209</from><to>210</to><read>0</read></transition>
+        <transition><from>210</from><to>210</to><read>0</read></transition>
+        <transition><from>210</from><to>210</to><read>1</read></transition>
+        <transition><from>0</from><to>301</to><read>1</read></transition>
+        <transition><from>301</from><to>302</to><read>1</read></transition>
+        <transition><from>302</from><to>303</to><read>0</read></transition>
+        <transition><from>303</from><to>304</to><read>1</read></transition>
+        <transition><from>304</from><to>305</to><read>0</read></transition>
+        <transition><from>305</from><to>306</to><read>1</read></transition>
+        <transition><from>306</from><to>307</to><read>0</read></transition>
+        <transition><from>307</from><to>308</to><read>0</read></transition>
+        <transition><from>308</from><to>308</to><read>0</read></transition>
+        <transition><from>308</from><to>308</to><read>1</read></transition>
+    </automaton>
+</structure>

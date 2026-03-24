@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><structure><type>re</type><expression>(0+1)(01+(1+00)(0+1))*</expression></structure>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<automata>
+  <tipo>AFND</tipo>
+  <alfabeto>
+    <simbolo>0</simbolo>
+    <simbolo>1</simbolo>
+  </alfabeto>
+  <estados inicial="0" finales="3,4">
+    <estado id="0" nombre="A"/>
+    <estado id="1" nombre="B"/>
+    <estado id="2" nombre="C"/>
+    <estado id="3" nombre="D"/>
+    <estado id="4" nombre="E"/>
+    <estado id="5" nombre="F"/>
+  </estados>
+  <transiciones>
+    <tr origen="0" destino="1" leer="λ"/>
+    <tr origen="0" destino="5" leer="0"/>
+    <tr origen="0" destino="0" leer="1"/>
+    <tr origen="0" destino="2" leer="1"/>
+    <tr origen="0" destino="5" leer="1"/>
+    <tr origen="1" destino="2" leer="0"/>
+    <tr origen="1" destino="3" leer="0"/>
+    <tr origen="1" destino="1" leer="1"/>
+    <tr origen="1" destino="4" leer="1"/>
+    <tr origen="2" destino="4" leer="λ"/>
+    <tr origen="2" destino="0" leer="1"/>
+    <tr origen="2" destino="2" leer="1"/>
+    <tr origen="3" destino="4" leer="λ"/>
+    <tr origen="3" destino="5" leer="λ"/>
+    <tr origen="3" destino="0" leer="0"/>
+    <tr origen="3" destino="2" leer="0"/>
+    <tr origen="3" destino="1" leer="1"/>
+    <tr origen="3" destino="4" leer="1"/>
+    <tr origen="4" destino="3" leer="1"/>
+    <tr origen="5" destino="4" leer="λ"/>
+    <tr origen="5" destino="1" leer="0"/>
+    <tr origen="5" destino="4" leer="0"/>
+  </transiciones>
+</automata>

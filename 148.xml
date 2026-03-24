@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <automata>
-  <tipo>AFD</tipo>
+  <tipo>AFND</tipo>
   <alfabeto>
     <simbolo>A</simbolo>
     <simbolo>N</simbolo>

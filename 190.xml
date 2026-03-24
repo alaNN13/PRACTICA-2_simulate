@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<automata>
+  <tipo>AFND</tipo>
+  <alfabeto>
+    <simbolo>0</simbolo>
+    <simbolo>1</simbolo>
+  </alfabeto>
+  <estados inicial="0" finales="110,210,308">
+    <estado id="0" nombre="q0"/>
+    <estado id="101" nombre="q101"/>
+    <estado id="102" nombre="q102"/>
+    <estado id="103" nombre="q103"/>
+    <estado id="104" nombre="q104"/>
+    <estado id="105" nombre="q105"/>
+    <estado id="106" nombre="q106"/>
+    <estado id="107" nombre="q107"/>
+    <estado id="108" nombre="q108"/>
+    <estado id="109" nombre="q109"/>
+    <estado id="110" nombre="q110"/>
+    <estado id="201" nombre="q201"/>
+    <estado id="202" nombre="q202"/>
+    <estado id="203" nombre="q203"/>
+    <estado id="204" nombre="q204"/>
+    <estado id="205" nombre="q205"/>
+    <estado id="206" nombre="q206"/>
+    <estado id="207" nombre="q207"/>
+    <estado id="208" nombre="q208"/>
+    <estado id="209" nombre="q209"/>
+    <estado id="210" nombre="q210"/>
+    <estado id="301" nombre="q301"/>
+    <estado id="302" nombre="q302"/>
+    <estado id="303" nombre="q303"/>
+    <estado id="304" nombre="q304"/>
+    <estado id="305" nombre="q305"/>
+    <estado id="306" nombre="q306"/>
+    <estado id="307" nombre="q307"/>
+    <estado id="308" nombre="q308"/>
+  </estados>
+  <transiciones>
+    <tr origen="0" destino="0" leer="0"/>
+    <tr origen="0" destino="0" leer="1"/>
+    <tr origen="0" destino="101" leer="1"/>
+    <tr origen="101" destino="102" leer="1"/>
+    <tr origen="102" destino="103" leer="0"/>
+    <tr origen="103" destino="104" leer="1"/>
+    <tr origen="104" destino="105" leer="0"/>
+    <tr origen="105" destino="105" leer="0"/>
+    <tr origen="105" destino="105" leer="1"/>
+    <tr origen="105" destino="106" leer="1"/>
+    <tr origen="106" destino="107" leer="0"/>
+    <tr origen="107" destino="108" leer="1"/>
+    <tr origen="108" destino="109" leer="0"/>
+    <tr origen="109" destino="110" leer="0"/>
+    <tr origen="110" destino="110" leer="0"/>
+    <tr origen="110" destino="110" leer="1"/>
+    <tr origen="0" destino="201" leer="1"/>
+    <tr origen="201" destino="202" leer="0"/>
+    <tr origen="202" destino="203" leer="1"/>
+    <tr origen="203" destino="204" leer="0"/>
+    <tr origen="204" destino="205" leer="0"/>
+    <tr origen="205" destino="205" leer="0"/>
+    <tr origen="205" destino="205" leer="1"/>
+    <tr origen="205" destino="206" leer="1"/>
+    <tr origen="206" destino="207" leer="1"/>
+    <tr origen="207" destino="208" leer="0"/>
+    <tr origen="208" destino="209" leer="1"/>
+    <tr origen="209" destino="210" leer="0"/>
+    <tr origen="210" destino="210" leer="0"/>
+    <tr origen="210" destino="210" leer="1"/>
+    <tr origen="0" destino="301" leer="1"/>
+    <tr origen="301" destino="302" leer="1"/>
+    <tr origen="302" destino="303" leer="0"/>
+    <tr origen="303" destino="304" leer="1"/>
+    <tr origen="304" destino="305" leer="0"/>
+    <tr origen="305" destino="306" leer="1"/>
+    <tr origen="306" destino="307" leer="0"/>
+    <tr origen="307" destino="308" leer="0"/>
+    <tr origen="308" destino="308" leer="0"/>
+    <tr origen="308" destino="308" leer="1"/>
+  </transiciones>
+</automata>
